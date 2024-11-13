@@ -8,7 +8,7 @@ function calculateInterest() {
     const currency =document.getElementById('currency').value;
 
     // Convert all time units to years
-    const totalYears = years + (months / 12) + (days / 365);
+    const totalYears = years + (months / 12) + (days / 365.25);
 
     // Simple Interest formula: SI = P * R * T / 100
     const interest = (principal * interestRate * totalYears) / 100;
