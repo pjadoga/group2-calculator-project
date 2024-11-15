@@ -93,6 +93,7 @@
 
 .input-with-dropdown {
     display: flex;
+    width: 10%;
 }
 
 .input-with-dropdown select,
@@ -122,3 +123,27 @@ button {
     background: #6c757d;
 }
 
+/* css for menu Icons */
+ul li{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    background-color: #fbfafd00;
+    padding: 20px 20px;
+    text-decoration-style:none;
+    border-radius: 30px;
+}
+
+a{
+    color: #020126;
+    text-decoration: none;
+    align-items: self-end;
+}
+a.active{
+    font-weight: 400;
+    text-decoration:underline;
+    font-size: larger;
+    color: #002a07;
+}
