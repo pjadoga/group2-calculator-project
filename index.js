@@ -25,6 +25,7 @@ cal.onkeyup = function (event) {
     } 
 } 
 
+
 // Function that evaluates the digit and return result 
 function solve() { 
     let x = document.getElementById("result").value 
@@ -32,6 +33,64 @@ function solve() {
     document.getElementById("result").value = y 
 } 
 
+//SQUARE ROOT
+function squaroot() {
+    let x = document.getElementById("result").value 
+    let y =math.sqrt(x)
+    document.getElementById("result").value =y
+    console.log(y)
+}
+
+//SINE FUNCTION
+function mySin(){
+   let x = document.getElementById("result").value
+   let y = Math.sin(x*Math.PI/180)
+   document.getElementById("result").value  = y
+   console.log(y)
+}
+//COSINE FUNCTION
+function myCos(){
+    let x = document.getElementById("result").value
+    let y = Math.cos(x*Math.PI/180)
+    document.getElementById("result").value  = y
+    console.log(y)
+ }
+ //Tangent FUNCTION
+function myTan(){
+    let x = document.getElementById("result").value
+    let y = Math.tan(x*Math.PI/180)
+    document.getElementById("result").value  = y
+    console.log(y)
+ }
+ 
+ //LOG FUNCTION
+function myLog(){
+    let x = document.getElementById("result").value
+    let y = Math.log(x)
+    document.getElementById("result").value  = y
+    console.log(y)
+ }
+  //LOG10 FUNCTION
+function myLog10(){
+    let x = document.getElementById("result").value
+    let y = Math.log10(x)
+    document.getElementById("result").value  = y
+    console.log(y)
+ }
+  //LOG2 FUNCTION
+function myLog2(){
+    let x = document.getElementById("result").value
+    let y = Math.log2(x)
+    document.getElementById("result").value  = y
+    console.log(y)
+ }
+  //LOG FUNCTION
+function percent(){
+    let x = document.getElementById("result").value
+    let y = x/100
+    document.getElementById("result").value  = y
+    console.log(y)
+ }
 // Function that clear the display 
 function clr() { 
     document.getElementById("result").value = "" 

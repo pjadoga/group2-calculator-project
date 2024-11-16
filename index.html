@@ -90,12 +90,14 @@
                             <tr> 
                                 <td colspan="3"><input type="text" id="result" placeholder="0" ></td> 
                                 <td><input type="button" value="c" onclick="clr()" /> </td> 
+                                <td><input type="button" value="sin" onclick="mySin()" /> </td> 
                             </tr> 
                             <tr> 
-                                <!-- <td><input type="button" id="x" value="x`n" onclick="sqr()"></td>  -->
-                                <!-- <td><input type="button" value="c" onclick="clr()" /> </td> 
-                                <td><input type="button" value="c" onclick="clr()" /> </td>  -->
-                                
+                                <td><input type="button" id="x" value="√" onclick="squaroot()"></td>
+                                <td><input type="button" value="π" onclick="dis('('+Math.PI+')')" /> </td> 
+                                <td><input type="button" value="(" onclick="dis('(')" /> </td> 
+                                <td><input type="button" value=")" onclick="dis(')')" /> </td> 
+                                <td><input type="button" value="cos" onclick="myCos()" /> </td> 
                             </tr> 
                             <tr> 
                                 <td><input type="button" value="1" onclick="dis('1')"
@@ -106,6 +108,7 @@
                                             onkeydown="myFunction(event)"> </td> 
                                 <td><input type="button" value="/" onclick="dis('/')"
                                             onkeydown="myFunction(event)"> </td> 
+                                <td><input type="button" value="tan" onclick="myTan()" /> </td> 
                             </tr> 
                             <tr> 
                                 <td><input type="button" value="4" onclick="dis('4')"
@@ -116,6 +119,7 @@
                                             onkeydown="myFunction(event)"> </td> 
                                 <td><input type="button" value="*" onclick="dis('*')"
                                             onkeydown="myFunction(event)"> </td> 
+                                <td><input type="button" value="ln" onclick="myLog()" /> </td> 
                             </tr> 
                             <tr> 
                                 <td><input type="button" value="7" onclick="dis('7')"
@@ -126,6 +130,7 @@
                                             onkeydown="myFunction(event)"> </td> 
                                 <td><input type="button" value="-" onclick="dis('-')"
                                             onkeydown="myFunction(event)"> </td> 
+                                <td><input type="button" value="log" onclick="myLog10()" /> </td> 
                             </tr> 
                             <tr> 
                                 <td><input type="button" value="0" onclick="dis('0')"
@@ -138,6 +143,7 @@
                 
                                 <td><input type="button" value="+" onclick="dis('+')"
                                             onkeydown="myFunction(event)"> </td> 
+                                <td><input type="button" value="%" onclick="percent()" /> </td> 
                             </tr> 
                         </table> 
                     </div>   
